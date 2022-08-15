@@ -1,4 +1,13 @@
 <p align="center">
+  
+  ## ROUTES
+@Post  /auth/signin 
+@Post  /auth/signup 
+@Get   /user
+@Put   /user/uploadProfile
+
+</p>
+<p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
