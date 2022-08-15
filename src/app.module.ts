@@ -6,10 +6,11 @@ import { PrismaModule } from './prisma/prisma.module';
 import { UserModule } from './user/user.module';
 
 import { HelperModule } from './helper/helper.module';
+import { PrintModule } from './print/print.module';
 
 
 @Module({
-  imports: [AuthModule, PrismaModule, UserModule, HelperModule],
+  imports: [AuthModule, PrismaModule, UserModule, HelperModule, PrintModule],
   controllers: [],
   providers: [],
 })
