@@ -1,10 +1,20 @@
 <p align="center">
   
   ## ROUTES
+<p>
 @Post  /auth/signin 
+</p>
+<p>
 @Post  /auth/signup 
+</p>
+<p>
 @Get   /user
+
+</p>
+<p>
 @Put   /user/uploadProfile
+
+</p>
 
 </p>
 <p align="center">
