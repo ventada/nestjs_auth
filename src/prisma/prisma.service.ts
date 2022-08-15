@@ -3,6 +3,8 @@ import { PrismaClient } from '@prisma/client';
 
 
 
+
+//connecting to the postgres database
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleDestroy, OnModuleInit {
 
