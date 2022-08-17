@@ -9,3 +9,6 @@ export class PrintService {
         console.log(term)
     }
 }
+
+
+export function print() { }
